@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aneesh - Software Engineer & Data Scientist Resume">
+  <meta name="theme-color" content="#2563eb">
+  <meta property="og:title" content="Aneesh - Resume">
+  <meta property="og:description" content="Software Engineer & Data Scientist Resume">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://code-with-aneesh.github.io">
+  <title>Aneesh - Resume</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f172a; --bg-elevated: #1e293b; --text: #f1f5f9;
+      --text-muted: #94a3b8; --accent: #2563eb; --accent-hover: #3b82f6;
+      --border: #334155; --card: #1e293b;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f8fafc; --bg-elevated: #fff; --text: #0f172a;
+        --text-muted: #475569; --accent: #2563eb; --accent-hover: #1d4ed8;
+        --border: #e2e8f0; --card: #fff; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f172a; --bg-elevated: #1e293b; --text: #f1f5f9;
+        --text-muted: #94a3b8; --accent: #3b82f6; --accent-hover: #60a5fa;
+        --border: #334155; --card: #1e293b; }
+    }
+    html { font-size: 16px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; }
+    .container { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+    header { text-align: center; margin-bottom: 3rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .title { color: var(--text-muted); font-size: clamp(1rem, 2.5vw, 1.25rem); margin-bottom: 1.5rem; }
+    .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.875rem 1.5rem;
+      border-radius: 0.5rem; font-weight: 600; font-size: 1rem; text-decoration: none;
+      transition: all 0.2s ease; border: none; cursor: pointer; }
+    .btn-primary { background: var(--accent); color: white; }
+    .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .btn-secondary { background: var(--bg-elevated); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--bg); border-color: var(--accent); }
+    .btn svg { width: 1.25rem; height: 1.25rem; }
+    section { margin-bottom: 3rem; }
+    h2 { font-size: 1.5rem; font-weight: 600; margin-bottom: 1.5rem; color: var(--text); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem;
+      padding: 1.5rem; transition: border-color 0.2s, transform 0.2s; }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .card h3 { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem; }
+    .card .btn { width: 100%; justify-content: center; }
+    .card-grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    footer { text-align: center; padding-top: 2rem; border-top: 1px solid var(--border);
+      color: var(--text-muted); font-size: 0.875rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Aneesh</h1>
+      <p class="title">Software Engineer & Data Scientist</p>
+      <div class="links">
+        <a href="https://github.com/code-with-aneesh" class="btn btn-secondary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.305-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/aneesh" class="btn btn-secondary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="mailto:aneesh@example.com" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Resumes</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Software Engineering Resume</h3>
+          <p>Full-stack development, system design, algorithms, and software engineering experience.</p>
+          <a href="resume.pdf" class="btn btn-primary" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Download PDF
+          </a>
+        </article>
+        <article class="card">
+          <h3>Data Science Resume</h3>
+          <p>Machine learning, data analysis, statistics, and data science project experience.</p>
+          <a href="resume_ds.pdf" class="btn btn-primary" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            Download PDF
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quick Links</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>GitHub</h3>
+          <p>View my repositories, contributions, and open source work.</p>
+          <a href="https://github.com/code-with-aneesh" class="btn btn-secondary" target="_blank" rel="noopener">View Profile</a>
+        </article>
+        <article class="card">
+          <h3>LinkedIn</h3>
+          <p>Connect with me professionally and see my career journey.</p>
+          <a href="https://linkedin.com/in/aneesh" class="btn btn-secondary" target="_blank" rel="noopener">Connect</a>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hosted on <a href="https://pages.github.com">GitHub Pages</a> · 
+      <a href="https://github.com/code-with-aneesh/code-with-aneesh.github.io">View Source</a></p>
+      <p>&copy; 2025 Aneesh. Built with HTML & CSS.</p>
+    </footer>
+  </div>
+</body>
+</html>
